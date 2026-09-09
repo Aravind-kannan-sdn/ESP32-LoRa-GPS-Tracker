@@ -16,8 +16,9 @@ HardwareSerial GPS(2);
 #define LORA_RST  14
 #define LORA_DIO0 2
 
-#define GPS_RX 17       // INTENTIONAL SMALL ISSUE
-#define GPS_TX 17       // INTENTIONAL SMALL ISSUE
+// GPS pins
+#define GPS_RX 16
+#define GPS_TX 17
 
 unsigned long lastUpdate = 0;
 
